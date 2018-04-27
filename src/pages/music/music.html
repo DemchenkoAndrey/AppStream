@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-navbar color="clear"> 
+    <ion-title>
+      <p style="font-size: 18px;">Playlist</p>
+    </ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only end (click)="presentPopover($event)">
+            <ion-icon name="more"></ion-icon>
+          </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="wrap-container">
+      <h3>Genre $ Moods</h3>
+      <button ion-button clear smal><p style="font-size:15px;">See all</p></button>
+  </div>
+  <ion-row>
+    <ion-col>
+      <img src="assets/imgs/audio-1.jpg">
+      <h4 class="track">Trending</h4>
+      <p class="tracks">53 Tracks</p>
+    </ion-col> 
+    <ion-col>
+        <img src="assets/imgs/audio-2.jpg">
+        <h4 class="track">Worckout</h4>
+        <p class="tracks">153 Tracks</p>
+    </ion-col> 
+  </ion-row>
+
+  <hr>
+
+  <div class="box">
+      <img src="assets/imgs/audio-3.jpg">
+
+      <div class="player">
+        <h4>Alternative</h4>
+        <p class="tracks">158 Tracks</p>
+      </div>
+  </div>
+
+  <hr>
+
+  <ion-row>
+      <ion-col>
+        <img src="assets/imgs/audio-4.jpg">
+        <h4 class="track">Classical</h4>
+        <p class="tracks">14 Tracks</p>
+      </ion-col> 
+      <ion-col>
+          <img src="assets/imgs/audio-5.jpg">
+          <h4 class="track">Country</h4>
+          <p class="tracks">88 Tracks</p>
+      </ion-col> 
+    </ion-row>
+    <ion-row>
+        <ion-col>
+          <img src="assets/imgs/audio-6.jpg">
+          <h4 class="track">Travel</h4>
+          <p class="tracks">19 Tracks</p>
+        </ion-col> 
+        <ion-col>
+            <img src="assets/imgs/audio-7.jpg">
+            <h4 class="track">Hip-Hop</h4>
+            <p class="tracks">27 Tracks</p>
+        </ion-col> 
+      </ion-row>
+
+      <div class="box">
+          <img src="assets/imgs/audio-8.jpg">
+    
+          <div class="player">
+            <h4>Romance</h4>
+            <p class="tracks">66 Tracks</p>
+          </div>
+      </div>
+
+      <hr>
+
+      <div class="box">
+          <img class="play" src="assets/imgs/play.png">
+
+          <img class="play-menu" src="assets/imgs/dots.png">
+
+    
+          <div class="playing">
+            <p class="title">Keep Your Head Up</p>
+            <p class="subtitle">Ben Howard</p>
+          </div>
+      </div>
+
+
+</ion-content>

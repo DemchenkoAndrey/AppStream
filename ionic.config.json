@@ -1,8 +1,7 @@
 {
-  "name": "AppStreem",
+  "name": "",
   "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "integrations": {},
+  "hooks": {},
+  "type": "ionic-angular"
 }
