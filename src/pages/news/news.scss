@@ -1,3 +1,11 @@
-page-contact {
+page-news {
+  .header-image {
+    background-image: url(../assets/imgs/newsfeed.jpg);
+    height: 50vh;
+  }
 
+  .main-content {
+    padding: 15px;
+    background-color: white;
+  }
 }

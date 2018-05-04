@@ -18,6 +18,8 @@ import { Popover } from '../components/popover/popover'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { ParallaxHeaderDirective } from '../directives/parallax-header/parallax-header';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     VimeoVideo,
     YoutubeVideo,
-    Popover
+    Popover,
+    ParallaxHeaderDirective
   ],
   imports: [
     BrowserModule,
